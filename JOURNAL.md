@@ -3,13 +3,21 @@
 ### Bloc 1 - Design
 **Qu'est-ce que j'ai accompli depuis le dernier bloc?**
 
+Le design du portfolio, ainsi que sa navigation.
+
 **Quelle a été ma principale difficulté et comment je l'ai surmontée?**
 
 **Qu'est-ce que j'ai appris que je ne savais pas avant?**
 
+Les shaders dans Figma, comment 
+
 **Quelle est ma prochaine étape concrète?**
 
+Commencer le HTML du portfolio
+
 **Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?**
+
+Oui, pour avoir des idées de portfolio comme demandé dans le cours avec Figma Make. J'ai appris qu'on pouvait inclure des shaders nativement dans Figma.
 
 ### Bloc 2 - Bêta
 **Qu'est-ce que j'ai accompli depuis le dernier bloc?**
@@ -100,6 +108,9 @@ Typographie : Moderne
 Ambiance Générale : Jeu vidéo, installation interactive
 
 Créez un portfolio avec ce persona.
+
+- Sur "Figma Make"
+Résultat : Idée de portfolio 3
 
 ### Bloc 2 - Bêta
 
