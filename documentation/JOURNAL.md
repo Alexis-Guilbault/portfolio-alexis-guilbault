@@ -9,7 +9,7 @@ Le design du portfolio, ainsi que sa navigation.
 
 **Qu'est-ce que j'ai appris que je ne savais pas avant?**
 
-Les shaders dans Figma, comment 
+Les shaders dans Figma
 
 **Quelle est ma prochaine étape concrète?**
 
@@ -42,7 +42,7 @@ Oui, pour avoir des idées de portfolio comme demandé dans le cours avec Figma 
 **Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?**
 ## Utilisation de l'IA
 ### Bloc 1 - Design
-**2 Septembre 2026 - 1**
+**2 Septembre 2026**
 
 Web 5 – Identité visuelle
 
