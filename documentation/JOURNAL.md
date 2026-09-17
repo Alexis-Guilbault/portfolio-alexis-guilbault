@@ -7,13 +7,15 @@ Le design du portfolio, ainsi que sa navigation.
 
 **Quelle a été ma principale difficulté et comment je l'ai surmontée?**
 
+Gérer l'auto-layout sur les maquettes Figma. J'ai dû réviser comment ça marche et essayer de prédire précisemment ce que le résultat allait être.
+
 **Qu'est-ce que j'ai appris que je ne savais pas avant?**
 
-Les shaders dans Figma
+Les shaders dans Figma, l'utilisation et la personnalisation d'agents.
 
 **Quelle est ma prochaine étape concrète?**
 
-Commencer le HTML du portfolio
+Commencer le HTML du portfolio.
 
 **Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?**
 
@@ -110,6 +112,7 @@ Ambiance Générale : Jeu vidéo, installation interactive
 Créez un portfolio avec ce persona.
 
 - Sur "Figma Make"
+
 Résultat : Idée de portfolio 3
 
 ### Bloc 2 - Bêta
