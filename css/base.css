@@ -44,6 +44,9 @@ body {
 
 main {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* En-tête et titres de la page d'accueil */
@@ -297,6 +300,7 @@ footer > p > a {
     margin: 0;
     padding: 0;
     & > li {
+      display: flex !important;
       height: 9vh;
       & > a {
         font-size: 8vw;
@@ -348,31 +352,15 @@ footer > p > a {
 
   summary {
     width: 100%;
-    color: #ffcc00;
-    background-color: #1b0e25;
-    border: 2vw solid #6f11b7;
     height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 2.5vh;
-    & > h3 {
-      font-family: "Pixelify Sans", sans-serif;
-      display: inline;
-    }
   }
 
   details {
     width: 85vw;
-    color: #fff;
     font-size: 6vw;
-    font-family: 'Roboto Mono';
     & > ul {
-      display: flex;
-      flex-direction: column;
       gap: 1vh;
-      list-style: none;
-      padding: 0;
     }
   }
 
@@ -384,24 +372,160 @@ footer > p > a {
 
   .contact-link {
     font-size: 10vw;
-    color: #ffcc00;
-    &:hover {
-      color: #6f11b7;
-    }
   }
 
   footer > p > a {
-    font-family: 'Roboto Mono', monospace;
     font-size: 8vw;
     margin: 0;
-    color: #fff;
-    &:hover {
-      color: #6f11b7;
-    }
   }
 
   .footer-square {
     height: 10vh;
-    background-color: #1b0e25;
+  }
+}
+
+/* DESKTOP - 1024px */
+@media screen and (min-width:1024px) {
+  /* Configuration body (desktop) */
+  html {
+    min-width: 1024px;
+  }
+
+  /* En-tête et titres de la page d'accueil */
+  h1 {
+    width: 80vw;
+    text-align: left;
+    font-size: 12vw;
+    & span {
+      display: block;
+      font-size: 6vw;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 6vw;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  header {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10vh;
+    padding-bottom: 20vh;
+  }
+
+  header > p {
+    margin: 0;
+    font-size: 2vw;
+  }
+
+  nav > ul {
+    flex-direction: row;
+    justify-content: center;
+    & > li {
+      display: flex !important;
+      height: 10vh;
+      width: 20%;
+      & > a {
+        font-size: 2.5vw;
+      }
+    }
+  }
+
+  /* Section projets */
+  #projets {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    & > h2 {
+      position: absolute;
+    }
+    & > a {
+      justify-content: flex-end;
+      overflow: hidden;
+      text-align: left;
+      height: 60vh;
+      flex-grow: 1;
+      padding: 1vw;
+      padding-bottom: 5vh;
+      & > div {
+        height: 20vh;
+        & > p {
+          font-size: 1.2vw;
+        }
+      }
+    }
+  }
+
+  /* Section à propos */
+  #a-propos {
+    padding: 5vh 0;
+  }
+
+  .terminal-header {
+    width: 75vw;
+    height: 15vh;
+    justify-content: space-around;
+    & > p {
+      font-size: 6vw;
+      margin: 0;
+    }
+  }
+
+  .terminal-body {
+    width: 75vw;
+    padding: 1vh 3vw;
+    text-align: left;
+    font-size: 2vw;
+    border: 2vw solid #6f11b7;
+  }
+
+  /* Section compétences */
+  #competence-desktop {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    & > h2 {
+      font-size: 6vw;
+      margin: 0;
+    }
+  }
+
+  summary {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 2.5vh;
+  }
+
+  details {
+    width: 85vw;
+    font-size: 6vw;
+    & > ul {
+      gap: 1vh;
+    }
+  }
+
+  /* Pied de page */
+  footer {
+    padding-top: 3vh;
+    width: 100vw;
+  }
+
+  .contact-link {
+    font-size: 6vw;
+  }
+
+  footer > p > a {
+    font-size: 6vw;
+    margin: 0;
+  }
+
+  .footer-square {
+    height: 10vh;
   }
 }
