@@ -25,10 +25,20 @@
   box-sizing: border-box;
 }
 
+/* Configuration body (mobile) */
+
+html {
+  min-width: 402px;
+  overflow-x: hidden;
+}
+
 body {
   text-align: center;
-  min-width: 402px;
   background-color: #1b1b1b;
+}
+
+.desktop {
+  display: none;
 }
 
 /* En-tête et titres de la page d'accueil */
@@ -40,14 +50,11 @@ h2 {
 }
 
 h1 {
-  font-size: 96px;
-  & > p {
-    font-size: 72px;
-  }
+  font-size: 10vw;
 }
 
 h2 {
-  font-size: 72px;
+  font-size: 7.5vw;
 }
 
 header {
@@ -56,13 +63,15 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 1px 10vh;
+  width: 100vw;
+  padding: 10vh;
   gap: 0.5vh;
   background-color: #1b0e25;
 }
 
 header > p {
-  font-size: 24px;
+  font-family: 'Cascadia Mono';
+  font-size: 2.5vw;
   color: #00ff09;
 }
 
@@ -82,10 +91,10 @@ nav > ul {
     & > a {
       color: #fff;
       text-decoration: none;
-      font-size: 36px;
+      font-size: 2.5vw;
     }
     &:hover {
-      box-shadow: #ffcc00 5px 5px;
+      box-shadow: #ffcc00 1vw 1vw;
       & > a {
         color: #ffcc00;
       }
@@ -115,12 +124,41 @@ a {
     background-color: #6f11b7;
     height: 30vh;
     width: 100vw;
-    & > h3 {
-      font-size: 32px;
+    & > div > h3 {
+      font-size: 5vw;
       margin-bottom: 1vh;
     }
-    & > p {
-      font-size: 16px;
+    & > div > p {
+      font-size: 3vw;
     }
   }
+}
+
+/* Section à propos */
+#a-propos {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal-header {
+  width: 90vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f11b7;
+}
+
+.terminal-body {
+  font-family: 'Cascadia Mono';
+  color: #fff;
+  background-color: #000;
+  width: 90vw;
+  padding: 1vh 5vw;
+  text-align: left;
+  font-size: 2.5vw;
+  border: 2vw solid #6f11b7;
 }
