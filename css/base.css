@@ -28,7 +28,7 @@
 /* Configuration body (mobile) */
 
 html {
-  min-width: 402px;
+  min-width: 323px;
   overflow-x: hidden;
 }
 
@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+main {
+  width: 100vw;
+}
+
 /* En-tête et titres de la page d'accueil */
 
 h1,
@@ -51,6 +55,7 @@ h2 {
 }
 
 h1 {
+  margin: 0;
   font-size: 24vw;
   & span {
     font-size: 18vw;
@@ -69,21 +74,22 @@ h3 {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  gap: 0.5vh;
   background-color: #1b0e25;
 }
 
 header > p {
+  padding: 0;
   font-family: 'Cascadia Mono';
   font-size: 6vw;
   color: #00ff09;
 }
 
 nav > ul {
+  margin: 0;
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -130,11 +136,14 @@ a {
     text-decoration: none;
     text-align: center;
     color: #fff;
-    background-color: #6f11b7;
+    background-color: #aaa;
     height: 30vh;
     width: 100vw;
+    &:hover {
+      background-color: #6f11b7;
+    }
     & > div > p {
-      font-size: 3vw;
+      font-size: 6vw;
     }
   }
 }
@@ -202,6 +211,7 @@ details {
   width: 85vw;
   color: #fff;
   font-size: 6vw;
+  font-family: 'Roboto Mono';
   & > ul {
     display: flex;
     flex-direction: column;
@@ -210,3 +220,33 @@ details {
     padding: 0;
   }
 }
+
+/* Pied de page */
+footer {
+  padding-top: 3vh;
+  width: 100vw;
+}
+
+.contact-link {
+  font-size: 12vw;
+  color: #ffcc00;
+  &:hover {
+    color: #6f11b7;
+  }
+}
+
+footer > p > a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10vw;
+  margin: 0;
+  color: #fff;
+  &:hover {
+    color: #6f11b7;
+  }
+}
+
+.footer-square {
+  height: 5vh;
+  background-color: #1b0e25;
+}
+
