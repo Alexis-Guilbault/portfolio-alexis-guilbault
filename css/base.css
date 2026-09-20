@@ -181,7 +181,7 @@ a {
 }
 
 /* Section compétences */
-#competence.mobile {
+#competence-mobile {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -250,3 +250,158 @@ footer > p > a {
   background-color: #1b0e25;
 }
 
+/* TABLETTE - 768px */
+@media screen and (min-width:768px) {
+  /* Configuration body (tablette) */
+  html {
+    min-width: 768px;
+  }
+
+  .mobile {
+    display: none !important; 
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  /* En-tête et titres de la page d'accueil */
+  h1 {
+    margin: 0;
+    font-size: 18vw;
+    & span {
+      font-size: 12vw;
+    }
+  }
+
+  h2 {
+    margin: 2vh;
+    font-size: 12vw;
+  }
+
+  h3 {
+    font-size: 8vw;
+  }
+
+  header > p {
+    padding: 0;
+    margin: 0;
+    font-size: 3.5vw;
+  }
+
+  nav > ul {
+    margin: 0;
+    padding: 0;
+    & > li {
+      height: 9vh;
+      & > a {
+        font-size: 8vw;
+      }
+    }
+  }
+
+  /* Section projets */
+  #projets {
+    & > a {
+      height: 50vh;
+      & > div > p {
+        font-size: 4vw;
+      }
+    }
+  }
+
+  /* Section à propos */
+  #a-propos {
+    padding: 3vh 0;
+  }
+
+  .terminal-header {
+    justify-content: space-around;
+    & > p {
+      font-family: 'Pixelify Sans';
+      color: #ffcc00;
+      font-size: 8vw;
+    }
+  }
+
+  .terminal-body {
+    padding: 1vh 3vw;
+    text-align: left;
+    font-size: 3vw;
+    border: 2vw solid #6f11b7;
+  }
+
+  /* Section compétences */
+  #competence-desktop {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > h2 {
+      font-size: 14vw;
+    }
+  }
+
+  summary {
+    width: 100%;
+    color: #ffcc00;
+    background-color: #1b0e25;
+    border: 2vw solid #6f11b7;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    & > h3 {
+      font-family: "Pixelify Sans", sans-serif;
+      display: inline;
+    }
+  }
+
+  details {
+    width: 85vw;
+    color: #fff;
+    font-size: 6vw;
+    font-family: 'Roboto Mono';
+    & > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      list-style: none;
+      padding: 0;
+    }
+  }
+
+  /* Pied de page */
+  footer {
+    padding-top: 3vh;
+    width: 100vw;
+  }
+
+  .contact-link {
+    font-size: 10vw;
+    color: #ffcc00;
+    &:hover {
+      color: #6f11b7;
+    }
+  }
+
+  footer > p > a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8vw;
+    margin: 0;
+    color: #fff;
+    &:hover {
+      color: #6f11b7;
+    }
+  }
+
+  .footer-square {
+    height: 10vh;
+    background-color: #1b0e25;
+  }
+}
