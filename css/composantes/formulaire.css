@@ -51,7 +51,7 @@
 .formulaire__label {
   color: var(--formulaire-texte);
   font-family: "Pixelify Sans", monospace;
-  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-size: clamp(1.1rem, 1.25vw, 2rem);
   line-height: 1.2;
   text-align: left;
 }

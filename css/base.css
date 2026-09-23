@@ -43,7 +43,7 @@ body {
 }
 
 main {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,13 +80,13 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #1b0e25;
 }
 
 header > p {
   padding: 0;
-  font-family: 'Cascadia Mono';
+  font-family: "Cascadia Mono";
   font-size: 6vw;
   color: #00ff09;
 }
@@ -95,7 +95,7 @@ nav > ul {
   margin: 0;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   align-items: center;
   gap: 2vh;
   padding: 0;
@@ -106,7 +106,7 @@ nav > ul {
     justify-content: center;
     align-items: center;
     background-color: #6f11b7;
-    transition-property:box-shadow;
+    transition-property: box-shadow;
     transition-duration: 500ms;
     & > a {
       color: #fff;
@@ -133,6 +133,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  width: 100%;
   & > a {
     display: flex;
     flex-direction: column;
@@ -143,8 +144,8 @@ a {
     color: #fff;
     background-color: #aaa;
     height: 30vh;
-    width: 100vw;
-    transition-property:background-color;
+    width: 100%;
+    transition-property: background-color;
     transition-duration: 250ms;
     &:hover {
       background-color: #6f11b7;
@@ -177,7 +178,7 @@ a {
 }
 
 .terminal-body {
-  font-family: 'Cascadia Mono';
+  font-family: "Cascadia Mono";
   color: #fff;
   background-color: #000;
   width: 90vw;
@@ -189,7 +190,7 @@ a {
 
 /* Section compétences */
 #competence-mobile {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -218,7 +219,7 @@ details {
   width: 85vw;
   color: #fff;
   font-size: 6vw;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   & > ul {
     display: flex;
     flex-direction: column;
@@ -231,7 +232,7 @@ details {
 /* Pied de page */
 footer {
   padding-top: 3vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .contact-link {
@@ -243,7 +244,7 @@ footer {
 }
 
 footer > p > a {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 10vw;
   margin: 0;
   color: #fff;
@@ -258,22 +259,18 @@ footer > p > a {
 }
 
 /* TABLETTE - 768px */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   /* Configuration body (tablette) */
   html {
     min-width: 768px;
   }
 
-  .mobile {
-    display: none !important; 
+  main {
+    width: 100%;
   }
 
   .desktop {
-    display: block;
-  }
-
-  main {
-    width: 100vw;
+    display: none !important;
   }
 
   /* En-tête et titres de la page d'accueil */
@@ -330,7 +327,7 @@ footer > p > a {
   .terminal-header {
     justify-content: space-around;
     & > p {
-      font-family: 'Pixelify Sans';
+      font-family: "Pixelify Sans";
       color: #ffcc00;
       font-size: 8vw;
     }
@@ -343,9 +340,36 @@ footer > p > a {
     border: 2vw solid #6f11b7;
   }
 
+  summary {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    & > h3 {
+      font-family: "Pixelify Sans", sans-serif;
+      display: inline;
+    }
+  }
+
+  details {
+    width: 85vw;
+    color: #fff;
+    font-size: 2vw;
+    font-family: "Roboto Mono";
+    & > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      list-style: none;
+      padding: 0;
+    }
+  }
+
   /* Section compétences */
   #competence-desktop {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -368,7 +392,7 @@ footer > p > a {
       border-bottom: 1vw solid #6f11b7;
       gap: 1vw;
       & > button {
-        font-family: 'Pixelify Sans', sans-serif;
+        font-family: "Pixelify Sans", sans-serif;
         font-size: 2.5vw;
         padding: 1vh 1vw;
         flex-grow: 1;
@@ -393,7 +417,7 @@ footer > p > a {
       gap: 2vh;
     }
     & li {
-      font-family: 'Roboto Mono', monospace;
+      font-family: "Roboto Mono", monospace;
       font-size: 1.8vw;
       color: #fff;
       text-align: left;
@@ -403,7 +427,7 @@ footer > p > a {
   /* Pied de page */
   footer {
     padding-top: 3vh;
-    width: 100vw;
+    width: 100%;
   }
 
   .contact-link {
@@ -421,10 +445,18 @@ footer > p > a {
 }
 
 /* DESKTOP - 1024px */
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   /* Configuration body (desktop) */
   html {
     min-width: 1024px;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
   }
 
   /* En-tête et titres de la page d'accueil */
@@ -459,13 +491,17 @@ footer > p > a {
     font-size: 2vw;
   }
 
+  nav {
+    width: 80%;
+  }
+
   nav > ul {
     flex-direction: row;
     justify-content: center;
     & > li {
       display: flex !important;
       height: 10vh;
-      width: 20%;
+      width: 30%;
       & > a {
         font-size: 2.5vw;
       }
@@ -535,7 +571,7 @@ footer > p > a {
   /* Pied de page */
   footer {
     padding-top: 3vh;
-    width: 100vw;
+    width: 100%;
   }
 
   .contact-link {
@@ -554,4 +590,58 @@ footer > p > a {
 
 .hidden {
   display: none !important;
+}
+
+/* PAGE CONTACT */
+.page-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-contact {
+  height: 20vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 5vw;
+  padding: 0;
+  background-color: #00000000;
+  & > a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1vw;
+  height: 90%;
+  width: 90%;
+}
+
+.formulaire {
+  width: 66%;
+  height: 100%;
+}
+.identifiants {
+  flex-grow: 1;
+  text-align: left;
+  font-family: "";
+  width: 33%;
+}
+
+.identifiants__text {
+  color: #ffcc00;
+  font-family: 'roboto mono';
+  font-size: 1.8vw;
+  & > a {
+    color: #ffcc00;
+    font-family: 'roboto mono';
+  }
 }
