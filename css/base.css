@@ -400,20 +400,6 @@ footer > p > a {
     }
   }
 
-  summary {
-    width: 100%;
-    height: 10vh;
-    margin-bottom: 2.5vh;
-  }
-
-  details {
-    width: 85vw;
-    font-size: 6vw;
-    & > ul {
-      gap: 1vh;
-    }
-  }
-
   /* Pied de page */
   footer {
     padding-top: 3vh;
@@ -530,7 +516,7 @@ footer > p > a {
     width: 75vw;
     padding: 1vh 3vw;
     text-align: left;
-    font-size: 2vw;
+    font-size: 1.5vw;
     border: 2vw solid #6f11b7;
   }
 
@@ -543,20 +529,6 @@ footer > p > a {
     & > h2 {
       font-size: 6vw;
       margin: 0;
-    }
-  }
-
-  summary {
-    width: 100%;
-    height: 10vh;
-    margin-bottom: 2.5vh;
-  }
-
-  details {
-    width: 85vw;
-    font-size: 6vw;
-    & > ul {
-      gap: 1vh;
     }
   }
 

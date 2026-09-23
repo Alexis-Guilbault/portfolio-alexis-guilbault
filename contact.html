@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/composantes/formulaire.css">
+    <title>Contactez Alexis Guilbault</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+</head>
+<body>
+    <main class="contact-page">
+        <section class="formulaire" aria-labelledby="contact-title">
+            <h2 id="contact-title" class="formulaire__title">Contactez-moi</h2>
+
+            <form class="formulaire__form" action="#" method="post">
+                <div class="formulaire__grid">
+                    <div class="formulaire__field">
+                        <label class="formulaire__label" for="prenom">Votre prénom</label>
+                        <input class="formulaire__input" id="prenom" name="prenom" type="text" autocomplete="given-name">
+                    </div>
+
+                    <div class="formulaire__field">
+                        <label class="formulaire__label" for="nom">Votre nom</label>
+                        <input class="formulaire__input" id="nom" name="nom" type="text" autocomplete="family-name">
+                    </div>
+
+                    <div class="formulaire__field formulaire__field--full">
+                        <label class="formulaire__label" for="email">Votre adresse courriel</label>
+                        <input class="formulaire__input" id="email" name="email" type="email" autocomplete="email">
+                    </div>
+
+                    <div class="formulaire__field formulaire__field--full">
+                        <label class="formulaire__label" for="message">Votre message</label>
+                        <textarea class="formulaire__textarea" id="message" name="message" rows="8"></textarea>
+                    </div>
+                </div>
+
+                <button class="formulaire__button" type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section>
+            <h2>Pour me rejoindre</h2>
+        </section>
+    </main>
+</body>
+</html>

@@ -115,6 +115,13 @@ Créez un portfolio avec ce persona.
 
 Résultat : Idée de portfolio 3
 
+**23 septembre 2026**
+Intégrez en HTML (dans contact.html) et en CSS (dans formulaire.css) la composante de formulaire dont la référence est dans /exports-composants
+
+- Sur Copilot (dans VS Code)
+
+Résultat : Composante du formulaire dans la page contact.
+
 ### Bloc 2 - Bêta
 
 ### Bloc 3 - Final
