@@ -1,9 +1,9 @@
 /* Gestion des onglets */
-let boutons = document.querySelectorAll('.bouton');
-let liste_logiciels = document.querySelector('#logiciel');
-let liste_langages = document.querySelector('#programmation');
-let liste_savoirs = document.querySelector('#savoir-etre');
-let liste_listes = [liste_logiciels,liste_langages,liste_savoirs];
+const boutons = document.querySelectorAll('.bouton');
+const liste_logiciels = document.querySelector('#logiciel');
+const liste_langages = document.querySelector('#programmation');
+const liste_savoirs = document.querySelector('#savoir-etre');
+const liste_listes = [liste_logiciels,liste_langages,liste_savoirs];
 
 boutons.forEach(bouton => {
     bouton.addEventListener('click', () => {
@@ -22,8 +22,8 @@ boutons.forEach(bouton => {
 });
 
 /* pseudo-terminal */
-let bouton_x = document.querySelector("#x");
-let terminal = document.querySelector('.terminal-body');
+const bouton_x = document.querySelector("#x");
+const terminal = document.querySelector('.terminal-body');
 
 bouton_x.addEventListener("click", () => {
     if (bouton_x.innerHTML == "x") {
@@ -36,7 +36,7 @@ bouton_x.addEventListener("click", () => {
 });
 
 /* flash > */
-let trait = document.querySelector("#trait");
+const trait = document.querySelector("#trait");
 
 var compteur = setInterval(() => {
     trait.style.opacity = trait.style.opacity * -1 + 1;
