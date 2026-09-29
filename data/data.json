@@ -1,0 +1,80 @@
+[
+  {
+    "id": "corrupted_world",
+    "title":"Corrupted World",
+    "category":"Jeu vidéo",
+    "year":"2025",
+    "video":"https://www.youtube.com/embed/6ogd17dW4DY?si=QGSu3RiPMXFrFLuo",
+    "link":"https://store.steampowered.com/app/3660270/Corrupted_World/",
+    "description":"Jeu vidéo inspiré de la tendance des jeux indépendants et artistiques à l'esthétique rétro. Le joueur suit les aventures du citoyen-robot Pav Tech qui explore les 4 coins de son monde pour trouver ses mystérieuses origines. Cette expérence ludique explore le thème de l'identité et critique le déterminisme. Le jeu se sépare en 3 phases prenant des éléments des jeux de plateforme, des jeux \"Bullet Hell\" et des jeux \"Visual Novel\".",
+    "roles":["concepteur","réalisateur", "programmeur","artiste 2D", "bruiteur", "musicien"],
+    "collaborators":["Raphaël Lefebvre : musicien principal"],
+    "softwares":["GameMaker Studio 2", "Piskel", "JSFXR", "MuseScore 4"],
+    "process":""
+  },
+  {
+    "id": "magnet_pong",
+    "title":"Magnet Pong",
+    "category":"Jeu vidéo",
+    "year":"2026",
+    "video":"https://www.youtube.com/embed/CmAvr14TrEg?si=6LeQNOx-nP3O54wd",
+    "link":"",
+    "description":"Jeu vidéo réalisé en moins d'un mois pour un défi personnel. Il s'agit d'un jeu Pong, mais avec des aimants pour raquettes. Le joueur doit attirer et répulser la balle aux bons moments pour avoir un maximum de points.",
+    "roles":["concepteur","réalisateur", "programmeur","artiste 2D", "bruiteur", "musicien"],
+    "collaborators":"",
+    "softwares":["Godot", "Figma", "JSFXR", "MuseScore 4"],
+    "process":""
+  },
+  {
+    "id": "thalassophobie",
+    "title":"Thalassophobie",
+    "category":"Installation interactive",
+    "year":"2026",
+    "video":"https://www.youtube.com/embed/-YoXaqe3r68?si=5ZXzrnAviaszGOId&amp;start=196",
+    "link":"",
+    "description":"Installation interactive où le son et la vidéo sont manipulable en temps-réel à l'aide de la voix, d'un Nanokontrol et d'une webcam. L'expérience représente visuellement et auditivement la thalassophobie à l'aide de couleurs froides et désaturées et de sons réverbérées.",
+    "roles":["modélisateur 3D","concepteur sonore","monteur vidéo en temps-réel","monteur audio en temps-réel"],
+    "collaborators":"",
+    "softwares":["Maya", "Davinci Resolve", "Reaper", "Max MSP 8", "TouchDesigner"],
+    "process":""
+  },
+  {
+    "id": "sos_souris",
+    "title":"S.O.S. Souris",
+    "category":"Jeu vidéo VR",
+    "year":"2026",
+    "video":"https://www.youtube.com/embed/3X9nnXz5T6A?si=AZAAl502GfCgNEZu",
+    "link":"",
+    "description":"Un jeu de réalité virtuelle intégrant des modèles 3D. Le joueur incarne un chat qui doit chasser des sourits avant le retour de son maître. Les souris se déplacent de manière autonome dans la pièce.",
+    "roles":["concepteur","programmeur","bruiteur"],
+    "collaborators":["Vicky Raymond-Janvier : modélisatrice 3D, directrice artistique"],
+    "softwares":["Unity", "Visual Studio Code","JSFXR"],
+    "process":""
+  },
+  {
+    "id": "allegorie_pomme",
+    "title":"Allégorie des pommes",
+    "category":"Installation vidéo",
+    "year":"2025",
+    "video":"https://www.youtube.com/embed/nPUD1dFckBw?si=sk2fw2FZ7LM0FzqM",
+    "link":"",
+    "description":"Vidéo stop-motion diffusée sur 4 écrans différents avec une traque sonore spatialisée et des lumières synchronisées à la vidéo. Nous suivons une guerre entre 2 «nations» de pommes ainsi que leur entraide contre un ennemi commun : l'homme. La vidéo critique de manière humoristique la guerre, la discrimination et le besoin constant d'avoir un ennemi.",
+    "roles":["réalisateur", "cadreur", "monteur", "acteur", "bruiteur"],
+    "collaborators":["Vicky Raymond-Janvier : scénariste, directrice artistique, bruiteuse", "Assil Ounissi : monteur, bruiteur"],
+    "softwares":["Davinci Resolve", "Edelkrone"],
+    "process":""
+  },
+  {
+    "id": "chaki",
+    "title":"Le Chaki",
+    "category":"Site web interactif",
+    "year":"2025",
+    "video":"https://www.youtube.com/embed/5b9cERsL9m8?si=dfteTjMIWOaUIhz1",
+    "link":"",
+    "description":"Interface web futuriste intégrant des librairies JS vu dans le cours. L'interacteur doit résoudre quelques énigmes pour faire apparaître le Chaki, un alien ayant tombé à Saint-Roch-De-L'Achigan. L'interacteur doit ensuite le tuer, terminant le jeu.",
+    "roles":["concepteur","programmeur"],
+    "collaborators":"",
+    "softwares":["VS Code"],
+    "process":""
+  }
+]

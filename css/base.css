@@ -36,6 +36,10 @@ body {
   text-align: center;
   background-color: #1b1b1b;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .desktop {
@@ -60,7 +64,7 @@ h2 {
 h1 {
   margin: 0;
   font-size: 24vw;
-  & >span {
+  & > a > span {
     font-size: 18vw;
   }
   & > a {
@@ -126,6 +130,28 @@ nav > ul {
       & > a {
         color: #ffcc00;
       }
+    }
+  }
+}
+
+.bouton-nav {
+  width: 60vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f11b7;
+  transition-property: box-shadow;
+  transition-duration: 500ms;
+  & > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 8vw;
+  }
+  &:hover {
+    box-shadow: #ffcc00 1vw 1vw;
+    & > a {
+      color: #ffcc00;
     }
   }
 }
@@ -281,8 +307,8 @@ footer > p > a {
   background-color: #1b0e25;
 }
 
-/* TABLETTE - 768px */
-@media screen and (min-width: 768px) {
+/* TABLETTE - 635px */
+@media screen and (min-width: 635px) {
   /* Configuration body (tablette) */
   html {
     min-width: 768px;
@@ -300,7 +326,7 @@ footer > p > a {
   h1 {
     margin: 0;
     font-size: 18vw;
-    & span {
+    & > a > span {
       font-size: 12vw;
     }
   }
@@ -312,6 +338,10 @@ footer > p > a {
 
   h3 {
     font-size: 8vw;
+  }
+
+  header {
+    width: 100%;
   }
 
   header > p {
@@ -476,7 +506,8 @@ footer > p > a {
   nav > ul {
     flex-direction: row;
     justify-content: center;
-    & > li, > li.desktop {
+    & > li,
+    > li.desktop {
       display: flex !important;
       height: 10vh;
       width: 30%;
@@ -633,9 +664,11 @@ footer > p > a {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  background-color: #1b0e25;
 }
 
-.header-contact {
+.header-contact,
+.header-project {
   height: 20vh;
   width: 80%;
   display: flex;
@@ -645,7 +678,7 @@ footer > p > a {
   padding: 0;
   background-color: #00000000;
   & > h1 {
-    font-size:8vw;
+    font-size: 8vw;
     width: 70%;
   }
   & > a {
@@ -677,11 +710,11 @@ footer > p > a {
 
 .identifiants__text {
   color: #ffcc00;
-  font-family: 'roboto mono';
+  font-family: "roboto mono";
   font-size: 1.8vw;
   & > a {
     color: #ffcc00;
-    font-family: 'roboto mono';
+    font-family: "roboto mono";
   }
 }
 
@@ -774,4 +807,32 @@ footer > p > a {
       font-size: 5vw;
     }
   }
+}
+
+/* Page projet */
+.project-main {
+  width: 80%;
+  text-align: left;
+}
+
+.video {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  padding-top: 5vh;
+}
+
+.description-projet {
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  font-family: 'Roboto Mono';
+  font-size: 1.5vw;
+  padding-top: 5vh;
+}
+
+div > h2 {
+  font-size: 5vw;
 }
