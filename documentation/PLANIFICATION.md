@@ -4,6 +4,9 @@
 
 J'ai choisi Airtable parce qu'il me permettera de faire facilement une table de contenu pour chaque projet et de le changer en temps-réel sans toucher à du code.
 
+**Changement -­> JSON**
+Plus simple, il semble aussi plus stable en retrospective.
+
 ## Animations
 **Choix -> CSS pur et JS**
 

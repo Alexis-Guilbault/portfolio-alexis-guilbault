@@ -41,3 +41,11 @@ const trait = document.querySelector("#trait");
 var compteur = setInterval(() => {
     trait.style.opacity = trait.style.opacity * -1 + 1;
 }, 400);
+
+/* Boule */
+const boule = document.querySelector(".mouse-ball");
+
+boule.addEventListener("mousemove", () => {
+    boule.style.left = `${Event.clientX}px`;
+    boule.style.top = `${Event.clientY}px`;
+});

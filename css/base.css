@@ -856,3 +856,11 @@ footer > p > a {
 div > h2 {
   font-size: 5vw;
 }
+
+.mouse_ball {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-color: #ffcc00;
+  border-radius: 100%;
+}

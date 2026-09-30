@@ -46,81 +46,87 @@ Oui, pour avoir des idées de portfolio comme demandé dans le cours avec Figma 
 ### Bloc 1 - Design
 **2 Septembre 2026**
 
-Web 5 – Identité visuelle
+*Web 5 – Identité visuelle*
 
-Poste – Stage Développeur d’expériences interactives et immersives (Jeux video et installations interactive) Poste pour l’avenir – Enseignant TIM ou entrepreneur d’une boîte de jeu video ou installation interactive
+*Poste – Stage Développeur d’expériences interactives et immersives (Jeux video et installations interactive) Poste pour l’avenir – Enseignant TIM ou entrepreneur d’une boîte de jeu video ou installation interactive*
 
-Public Cible PME – Milieu scolaire
+*Public Cible PME – Milieu scolaire*
 
-Ce que la personne recherche Qualités, compétences
+*Ce que la personne recherche Qualités, compétences*
 
-Impression Créatif, competent, organisé
+*Impression Créatif, competent, organisé*
 
-Style visuel Couleurs : Saturés, coloré
+*Style visuel Couleurs : Saturés, coloré*
 
-Typographie : Carré, pixelisé Ambiance Générale : Interactif, retro
+*Typographie : Carré, pixelisé Ambiance Générale : Interactif, retro*
 
-Voici mon persona, créez 4 idées de design de portfolio en lien avec ce persona.
+*Voici mon persona, créez 4 idées de design de portfolio en lien avec ce persona.*
 
 - Sur "Figma Make"
 Résultat : Idée de portfolio 1 (Arcade)
 
 <hr>
-Web 5 – Identité visuelle 
+*Web 5 – Identité visuelle*
 
-Poste – Stage 
+*Poste – Stage*
 
-Développeur d’expériences interactives et immersives (Jeux video et installations interactive) 
-Poste pour l’avenir – Enseignant TIM ou entrepreneur d’une boîte de jeu video ou installation interactive 
+*Développeur d’expériences interactives et immersives (Jeux video et installations interactive)*
+*Poste pour l’avenir – Enseignant TIM ou entrepreneur d’une boîte de jeu video ou installation interactive*
 
-Public Cible :
-PME – Milieu scolaire 
+*Public Cible :*
+*PME – Milieu scolaire*
 
-Ce que la personne recherche : Organisation, polyvalence, sens de l'esthétique
+*Ce que la personne recherche : Organisation, polyvalence, sens de l'esthétique*
 
-Impression : Créatif, competent, organisé 
+*Impression : Créatif, competent, organisé*
 
-Style visuel 
+*Style visuel*
 
-Couleurs : Saturés, coloré 
+*Couleurs : Saturés, coloré*
 
-Ambiance Générale : Interactif, moderne
+*Ambiance Générale : Interactif, moderne*
 
-Créez un portfolio avec ce persona.
+*Créez un portfolio avec ce persona.*
 
 - sur Figma Make
 
 Résultat : Idée de portfolio 2
 <hr>
-Web 5 – Identité visuelle 
+*Web 5 – Identité visuelle*
 
-Poste – Stage 
-Développeur d’expériences interactives et immersives (Jeux video et installations interactive)
+*Poste – Stage*
+*Développeur d’expériences interactives et immersives (Jeux video et installations interactive)*
 
-Public Cible 
-PME
+*Public Cible* 
+*PME*
 
-Ce que la personne recherche : Organisation, polyvalence, sens de l'esthétique
+*Ce que la personne recherche : Organisation, polyvalence, sens de l'esthétique*
 
-Impression : Créatif, compétent, organisé 
+*Impression : Créatif, compétent, organisé*
 
-Style visuel 
-Couleurs : Saturés, 
-Typographie : Moderne
-Ambiance Générale : Jeu vidéo, installation interactive
+*Style visuel*
+*Couleurs : Saturés,*
+*Typographie : Moderne*
+*Ambiance Générale : Jeu vidéo, installation interactive*
 
-Créez un portfolio avec ce persona.
+*Créez un portfolio avec ce persona.*
 
 - Sur "Figma Make"
 
 Résultat : Idée de portfolio 3
 
 **23 septembre 2026**
-Intégrez en HTML (dans contact.html) et en CSS (dans formulaire.css) la composante de formulaire dont la référence est dans /exports-composants
+*Intégrez en HTML (dans contact.html) et en CSS (dans formulaire.css) la composante de formulaire dont la référence est dans /exports-composants*
 
 - Sur Copilot (dans VS Code)
 
 Résultat : Composante du formulaire dans la page contact.
+
+**21 Septembre 2026**
+*Prompt à retrouver*
+- Sur Copilot (dans VS Code)
+
+Résultat : Vidéos en fond (pas encore de vidéos concrètement, ils devront être tournés prochainement.)
 
 ### Bloc 2 - Bêta
 
