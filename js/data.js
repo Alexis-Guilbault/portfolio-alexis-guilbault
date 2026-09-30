@@ -15,14 +15,17 @@ async function init() {
 }
 
 function createProjectCard(project) {
-    return `<a href="./projet.html?id=${project.id}">
-                <div>
+    return `<a class="project-card" href="./projet.html?id=${project.id}">
+                <video class="project-card__video" autoplay muted loop playsinline aria-hidden="true" tabindex="-1">
+                    <source src="${project.video}" type="video/mp4">
+                </video>
+                <div class="project-card__content">
                     <h3>${project.title}</h3>
                     <p>${project.category} - ${project.year}</p>
                 </div>
             </a>`;
 }
-
+    
 let project_list = document.querySelector("#projets");
 
 
