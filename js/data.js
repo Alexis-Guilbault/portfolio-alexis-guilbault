@@ -1,5 +1,5 @@
 async function loadProjects() {
-    const response = await fetch('../data/data.json');
+    const response = await fetch('./data/data.json');
     if (!response.ok) {
         throw new Error(`Impossible de charger les projets (${response.status})`);
     }
@@ -25,7 +25,7 @@ function createProjectCard(project) {
                 </div>
             </a>`;
 }
-    
+
 let project_list = document.querySelector("#projets");
 
 
