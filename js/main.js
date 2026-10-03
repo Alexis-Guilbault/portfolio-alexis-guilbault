@@ -44,8 +44,13 @@ var compteur = setInterval(() => {
 
 /* Boule */
 const boule = document.querySelector(".mouse-ball");
+const header = document.querySelector("header");
 
-boule.addEventListener("mousemove", () => {
-    boule.style.left = `${Event.clientX}px`;
-    boule.style.top = `${Event.clientY}px`;
+document.addEventListener("mousemove", (e) => {
+    if (e.clientY < header.offsetHeight) {
+        boule.animate([
+        boule.style.left = e.clientX - boule.offsetWidth/2 + "px",
+        boule.style.top = e.clientY - boule.offsetHeight/2 + "px"], {duration: 100, fill: "forwards"});
+    }
 });
+//Code auto-complété, inspiration : https://stackoverflow.com/questions/77628677/how-do-i-make-an-element-follow-the-mouse
