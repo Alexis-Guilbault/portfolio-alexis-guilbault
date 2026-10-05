@@ -89,12 +89,13 @@ h3 {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   height: 100vh;
   width: 100%;
   background-color: #1b0e25;
   overflow: hidden;
+  padding: 1vh;
   &#header {
     z-index: -5;
   }
@@ -525,8 +526,8 @@ footer > p > a {
   header {
     justify-content: flex-end;
     align-items: center;
-    gap: 10vh;
-    padding-bottom: 20vh;
+    gap: 5vh;
+    padding-bottom: 5vh;
     & small {
       text-align: left;
       display: inline-block;
