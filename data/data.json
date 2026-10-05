@@ -32,10 +32,10 @@
     "year":"2026",
     "video":"https://www.youtube.com/embed/-YoXaqe3r68?si=5ZXzrnAviaszGOId&amp;start=196",
     "link":"",
-    "description":"Installation interactive où le son et la vidéo sont manipulable en temps-réel à l'aide de la voix, d'un Nanokontrol et d'une webcam. L'expérience représente visuellement et auditivement la thalassophobie à l'aide de couleurs froides et désaturées et de sons réverbérées.",
+    "description":"Installation interactive où le son et la vidéo sont manipulables en temps-réel à l'aide de la voix, d'un Nanokontrol et d'une webcam. L'expérience représente visuellement et auditivement la thalassophobie à l'aide de couleurs froides et désaturées et de sons réverbérées.",
     "roles":["modélisateur 3D","concepteur sonore","monteur vidéo en temps-réel","monteur audio en temps-réel"],
     "collaborators":"",
-    "softwares":["Maya", "Davinci Resolve", "Reaper", "Max MSP 8", "TouchDesigner"],
+    "softwares":["Maya", "DaVinci Resolve", "Reaper", "Max MSP 8", "TouchDesigner"],
     "process":""
   },
   {
@@ -45,7 +45,7 @@
     "year":"2026",
     "video":"https://www.youtube.com/embed/3X9nnXz5T6A?si=AZAAl502GfCgNEZu",
     "link":"",
-    "description":"Un jeu de réalité virtuelle intégrant des modèles 3D. Le joueur incarne un chat qui doit chasser des sourits avant le retour de son maître. Les souris se déplacent de manière autonome dans la pièce.",
+    "description":"Un jeu de réalité virtuelle intégrant des modèles 3D. Le joueur incarne un chat qui doit chasser des souris avant le retour de son maître. Les souris se déplacent de manière autonome dans la pièce.",
     "roles":["concepteur","programmeur","bruiteur"],
     "collaborators":["Vicky Raymond-Janvier : modélisatrice 3D, directrice artistique"],
     "softwares":["Unity", "Visual Studio Code","JSFXR"],
@@ -61,7 +61,7 @@
     "description":"Vidéo stop-motion diffusée sur 4 écrans différents avec une traque sonore spatialisée et des lumières synchronisées à la vidéo. Nous suivons une guerre entre 2 «nations» de pommes ainsi que leur entraide contre un ennemi commun : l'homme. La vidéo critique de manière humoristique la guerre, la discrimination et le besoin constant d'avoir un ennemi.",
     "roles":["réalisateur", "cadreur", "monteur", "acteur", "bruiteur"],
     "collaborators":["Vicky Raymond-Janvier : scénariste, directrice artistique, bruiteuse", "Assil Ounissi : monteur, bruiteur"],
-    "softwares":["Davinci Resolve", "Edelkrone"],
+    "softwares":["DaVinci Resolve", "Edelkrone"],
     "process":""
   },
   {
