@@ -10,7 +10,8 @@
     "roles":["concepteur","réalisateur", "programmeur","artiste 2D", "bruiteur", "musicien"],
     "collaborators":["Raphaël Lefebvre : musicien principal"],
     "softwares":["GameMaker Studio 2", "Piskel", "JSFXR", "MuseScore 4"],
-    "process":""
+    "process":"",
+    "image":"assets/images/image_cw.png"
   },
   {
     "id": "magnet_pong",
@@ -23,7 +24,8 @@
     "roles":["concepteur","réalisateur", "programmeur","artiste 2D", "bruiteur", "musicien"],
     "collaborators":"",
     "softwares":["Godot", "Figma", "JSFXR", "MuseScore 4"],
-    "process":""
+    "process":"",
+    "image":"assets/images/image_mp.png"
   },
   {
     "id": "thalassophobie",
@@ -36,7 +38,8 @@
     "roles":["modélisateur 3D","concepteur sonore","monteur vidéo en temps-réel","monteur audio en temps-réel"],
     "collaborators":"",
     "softwares":["Maya", "DaVinci Resolve", "Reaper", "Max MSP 8", "TouchDesigner"],
-    "process":""
+    "process":"",
+    "image":"assets/images/image_tp.png"
   },
   {
     "id": "sos_souris",
@@ -49,7 +52,8 @@
     "roles":["concepteur","programmeur","bruiteur"],
     "collaborators":["Vicky Raymond-Janvier : modélisatrice 3D, directrice artistique"],
     "softwares":["Unity", "Visual Studio Code","JSFXR"],
-    "process":""
+    "process":"",
+    "image":"assets/images/image_ss.png"
   },
   {
     "id": "allegorie_pomme",
@@ -62,7 +66,8 @@
     "roles":["réalisateur", "cadreur", "monteur", "acteur", "bruiteur"],
     "collaborators":["Vicky Raymond-Janvier : scénariste, directrice artistique, bruiteuse", "Assil Ounissi : monteur, bruiteur"],
     "softwares":["DaVinci Resolve", "Edelkrone"],
-    "process":""
+    "process":"",
+    "image":"./assets/images/image_ap.png"
   },
   {
     "id": "chaki",
@@ -75,6 +80,7 @@
     "roles":["concepteur","programmeur"],
     "collaborators":"",
     "softwares":["VS Code"],
-    "process":""
+    "process":"",
+    "image":"./assets/images/image_chaki.png"
   }
 ]

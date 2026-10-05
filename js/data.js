@@ -15,10 +15,20 @@ async function init() {
 }
 
 function createProjectCard(project) {
-    return `<a class="project-card" href="./projet.html?id=${project.id}">
-                <video class="project-card__video" autoplay muted loop playsinline aria-hidden="true" tabindex="-1">
-                    <source src="${project.video}" type="video/mp4">
-                </video>
+    return `<a class="project-card" id="${project.id}" href="./projet.html?id=${project.id}">
+                <style>
+                    #${project.id} {
+                        background-image:url("${project.image}");
+                        background-repeat:no-repeat;
+                        background-size: cover;
+                        filter: grayscale(1);
+                        transition-property: filter;
+                        transition-duration: 500ms;
+                        &:hover {
+                            filter: grayscale(0);
+                        }
+                    }
+                </style>
                 <div class="project-card__content">
                     <h3>${project.title}</h3>
                     <p>${project.category} - ${project.year}</p>
