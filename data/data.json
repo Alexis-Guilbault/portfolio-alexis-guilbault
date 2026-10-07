@@ -11,7 +11,7 @@
     "collaborators":["Raphaël Lefebvre : musicien principal"],
     "softwares":["GameMaker Studio 2", "Piskel", "JSFXR", "MuseScore 4"],
     "process":"",
-    "image":"assets/images/image_cw.png"
+    "image":"assets/images/image_cw.webp"
   },
   {
     "id": "magnet_pong",
@@ -25,7 +25,7 @@
     "collaborators":"",
     "softwares":["Godot", "Figma", "JSFXR", "MuseScore 4"],
     "process":"",
-    "image":"assets/images/image_mp.png"
+    "image":"assets/images/image_mp.webp"
   },
   {
     "id": "thalassophobie",
@@ -39,7 +39,7 @@
     "collaborators":"",
     "softwares":["Maya", "DaVinci Resolve", "Reaper", "Max MSP 8", "TouchDesigner"],
     "process":"",
-    "image":"assets/images/image_tp.png"
+    "image":"assets/images/image_tp.webp"
   },
   {
     "id": "sos_souris",
@@ -53,7 +53,7 @@
     "collaborators":["Vicky Raymond-Janvier : modélisatrice 3D, directrice artistique"],
     "softwares":["Unity", "Visual Studio Code","JSFXR"],
     "process":"",
-    "image":"assets/images/image_ss.png"
+    "image":"assets/images/image_ss.webp"
   },
   {
     "id": "allegorie_pomme",
@@ -67,7 +67,7 @@
     "collaborators":["Vicky Raymond-Janvier : scénariste, directrice artistique, bruiteuse", "Assil Ounissi : monteur, bruiteur"],
     "softwares":["DaVinci Resolve", "Edelkrone"],
     "process":"",
-    "image":"./assets/images/image_ap.png"
+    "image":"./assets/images/image_ap.webp"
   },
   {
     "id": "chaki",
@@ -81,6 +81,6 @@
     "collaborators":"",
     "softwares":["VS Code"],
     "process":"",
-    "image":"./assets/images/image_chaki.png"
+    "image":"./assets/images/image_chaki.webp"
   }
 ]
