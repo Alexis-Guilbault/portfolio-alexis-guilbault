@@ -24,6 +24,9 @@ function createProjectCard(project) {
                         filter: grayscale(1);
                         transition-property: filter;
                         transition-duration: 500ms;
+                        & > div {
+                            webkit-text-stroke: 2px #000;
+                        }
                         &:hover {
                             filter: grayscale(0);
                         }
