@@ -24,11 +24,11 @@ function createProjectCard(project) {
                         filter: grayscale(1);
                         transition-property: filter;
                         transition-duration: 500ms;
-                        & > div {
-                            webkit-text-stroke: 2px #000;
-                        }
                         &:hover {
                             filter: grayscale(0);
+                            color: #fc0;
+                            -webkit-text-stroke: 1px #000;
+                            text-shadow: 0.25vw 0.25vh 0 #6f11b7;
                         }
                     }
                 </style>

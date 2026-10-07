@@ -61,7 +61,7 @@ main {
   height: 10vw;
   background-color: #ffcc00;
   border-radius: 100%;
-  z-index: -1;
+  z-index: 3;
 }
 
 h1,
@@ -111,6 +111,9 @@ header {
     text-align: left;
     width: 100%;
     font-size: 5vw;
+  }
+  & > * {
+    z-index: 5;
   }
 }
 
@@ -306,10 +309,11 @@ footer {
 .contact-link {
   font-size: 12vw;
   color: #ffcc00;
-  transition-property: color;
-  transition-duration: 200ms;
+  transition-property: color text-shadow;
+  transition-duration: 500ms;
   &:hover, &:focus-visible {
     color: #6f11b7;
+    text-shadow: 0.25vw 0.25vw 0 #fc0;
   }
 }
 
@@ -318,10 +322,11 @@ footer > p > a {
   font-size: 10vw;
   margin: 0;
   color: #fff;
-  transition-property: color;
-  transition-duration: 200ms;
+  transition-property: color text-shadow;
+  transition-duration: 500ms;
   &:hover, &:focus-visible {
     color: #6f11b7;
+    text-shadow: 0.25vw 0.25vw 0 #fc0;
   }
 }
 
@@ -745,7 +750,6 @@ footer > p > a {
   font-family: "roboto mono";
   font-size: 1.8vw;
   & > a {
-
     color: #ffcc00;
     font-family: "roboto mono";
     text-decoration: underline;
