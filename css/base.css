@@ -927,3 +927,25 @@ div > h2 {
     font-size: 4vw;
   }
 }
+
+/* Animation CSS */
+.loading_bar {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0.3vh;
+  background: #0f0;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+@keyframes grow {
+  to { transform: scaleX(1); }
+}
+
+.loading_bar {
+  animation: grow linear;
+  animation-timeline: scroll();
+}
