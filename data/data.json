@@ -24,7 +24,7 @@
     "roles":["concepteur","réalisateur", "programmeur","artiste 2D", "bruiteur", "musicien"],
     "collaborators":"",
     "softwares":["Godot", "Figma", "JSFXR", "MuseScore 4"],
-    "process":"",
+    "process":"true",
     "image":"assets/images/image_mp.webp"
   },
   {

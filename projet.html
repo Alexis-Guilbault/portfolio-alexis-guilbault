@@ -1,49 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
     <title>Projet</title>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-project">
-        <a href="./index.html">&lt;-</a>
-        <h1>Projet</h1>
+      <a href="./index.html">&lt;-</a>
+      <h1>Projet</h1>
     </header>
     <main class="hidden project-main">
-        <section class="video">
-            
-        </section>
-        <section class="description-projet">
-            <div class="description-projet_1">
-                <p class="description-projet__paragraph"></p>
-            </div>
-            <div class="description-projet__roles">
-                <h2>Mon rôle dans le projet : </h2>
-                <ul></ul>
-            </div>
-            <div class="description-projet__credits hidden">
-                <h2>Collaborateurs : </h2>
-                <ul></ul>
-            </div>
-            <div class="description-projet__logiciels">
-                <h2>Logiciels utilisés : </h2>
-                <ul></ul>
-            </div>
-        </section>
-        <section class="processus_creation">
+      <section class="video"></section>
+      <section class="description-projet">
+        <div class="description-projet_1">
+          <p class="description-projet__paragraph"></p>
+        </div>
+        <div class="description-projet__roles">
+          <h2>Mon rôle dans le projet :</h2>
+          <ul></ul>
+        </div>
+        <div class="description-projet__credits hidden">
+          <h2>Collaborateurs :</h2>
+          <ul></ul>
+        </div>
+        <div class="description-projet__logiciels">
+          <h2>Logiciels utilisés :</h2>
+          <ul></ul>
+        </div>
+        <div class="processus_creation">
+        <hr>
+          <h2>Processus de création</h2>
+          <h3>Conception</h3>
+          <p>
+            Pour débuter, j’ai commencé à faire du brainstorming. J’ai ainsi eu l’idée des raquettes-aimants, ainsi que l’idée du mode « frenzy », un mode plus
+            rapide et stressant.<br />
 
-        </section>
+            J’ai décidé assez tôt quel allait être l’esthétique du jeu: une esthétique néon et arcade. <br />
+
+            J’ai ensuite dressé une liste des règles du jeu, et un schéma de navigation du jeu. <br />
+            Peu après, j’ai fait des maquettes filaires pour la page-écran du jeu. <br />
+
+            J’ai ensuite dressé une liste de médias (typographie, images, animations, musiques, effets sonores) et une liste de logiciels et de leurs fonctionnalités pour prouver la faisabilité du projet. <br>
+
+            Finalement, j’ai dressé une liste d’échéances pour chaque étape du projet. 
+          </p>
+          <h3>Création des médias</h3>
+          <p>
+            Premièrement, j’ai fait les images sur Figma en vectoriel. 
+            Ensuite, j’ai généré les effets sonores sur Jsfxr. <br>
+
+            Finalement pour les médias, j’ai composé deux courtes musiques, dont un avec 2 versions. La musique du menu, et la musique du jeu contenant une version normale et une version « frenzy ».             
+          </p>
+          <h3>Programmation</h3>
+          <p>
+            J’ai commencé par importer les médias et créer visuellement les scènes. J’ai ensuite ajouté les textes ainsi que leurs interactions et formatages. <br>
+
+            J’ai programmé la navigation du jeu, et ensuite les contrôles des joueurs (manette et clavier).  <br>
+
+            Par la suite, j’ai développé le comportement du joueur ORDI et le comportement de la balle. <br>
+
+            J’ai également programmé la différence entre le mode normal et le mode « frenzy ».  <br>
+
+            Finalement, j’ai programmé le système de points, le système de score, les animations et mouvements de caméras. 
+          </p>
+          <h3>Contrôle qualité</h3>
+          <p>
+            Lorsque je me suis assuré que le jeu pouvait être joué en son entièreté sans interruption majeure, j’ai fait des séances de tests où j’ai dressé des listes sur le Word de conception du jeu de tous les bugs, les erreurs d’orthographe, les crashs, les freezes et les problèmes de balancement. Heureusement, il n’y a pas eu de crash ou de freeze. <br>
+
+            De plus, j’ai arrangé quelques problèmes en lien avec les sprites (alignement, centrage) et j’ai tenté d’optimiser la programmation. <br>
+
+            Vu l’échelle du projet assez petite, la liste n’était pas très longue. J’ai fait le contrôle qualité en une journée. 
+          </p>
+          <h3>Diffusion</h3>
+          <p>Lorsque j’ai considéré avoir fini le projet, j’ai fait une vidéo démontrant le résultat et toutes les interactions possibles afin de documenter le projet. </p>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-square"></div>
+      <div class="footer-square"></div>
     </footer>
     <script src="./js/data.js"></script>
     <script src="./js/project.js"></script>
     <script src="./data/data.json"></script>
-</body>
+  </body>
 </html>

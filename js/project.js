@@ -53,8 +53,14 @@ async function showProject() {
 
     /* logiciel */
     projet.softwares.forEach(logiciel => {
-        logiciels.innerHTML += `<li>${logiciel}</li>`
+        logiciels.innerHTML += `<li>${logiciel}</li>`;
     });
+
+    /* Processus */
+    if (!projet.process) {
+        const processus_creation = document.querySelector(".processus_creation");
+        processus_creation.classList.add("hidden");
+    }
 }
 
 showProject();

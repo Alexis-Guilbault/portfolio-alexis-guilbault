@@ -759,15 +759,15 @@ footer > p > a {
 /* PAGE CONTACT - TABLETTE */
 @media screen and (max-width: 1024px) {
   .header-contact, .header-project {
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     justify-content: center;
     & > h1 {
-      font-size: 12vw;
+      font-size: 10vw;
       width: 70%;
     }
     & > a {
-      font-size: 12vw;
+      font-size: 10vw;
     }
   }
 
@@ -803,7 +803,7 @@ footer > p > a {
 /* PAGE CONTACT - MOBILE */
 @media screen and (max-width: 768px) {
   .header-contact, .header-project {
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     justify-content: center;
     & > h1 {
@@ -875,6 +875,16 @@ div > h2 {
   font-size: 5vw;
 }
 
+div > h3 {
+  font-size: 3vw;
+  color: #fc0;
+  font-family: 'Pixelify Sans';
+}
+
+.processus_creation {
+  padding: 1.5vw;
+}
+
 /* PAGE PROJET - MOBILE */
 @media screen and (max-width: 323px) {
   .video > iframe {
@@ -887,6 +897,20 @@ div > h2 {
 
   div > h2 {
     font-size: 9vw;
+  }
+
+  div > h3 {
+    font-size: 8vw;
+    color: #fc0;
+    font-family: 'Pixelify Sans';
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
   }
 }
 
@@ -902,7 +926,21 @@ div > h2 {
   }
 
   div > h2 {
-    font-size: 6vw;
+    font-size: 8vw;
+  }
+
+  div > h3 {
+    font-size: 5vw;
+    color: #fc0;
+    font-family: 'Pixelify Sans';
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
   }
 }
 
@@ -929,6 +967,12 @@ div > h2 {
 
   div > h2 {
     font-size: 4vw;
+  }
+
+  div > h3 {
+    font-size: 3vw;
+    color: #fc0;
+    font-family: 'Pixelify Sans';
   }
 }
 

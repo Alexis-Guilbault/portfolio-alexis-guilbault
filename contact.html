@@ -17,28 +17,29 @@
     </header>
     <main class="contact-page">
         <section class="formulaire" aria-labelledby="contact-title">
-            <h2 id="contact-title" class="formulaire__title">Contactez-moi</h2>
+            <p style="color: white; position: absolute;">En cours de travail... utilisez le lien vers le courriel pour me contacter pendant ce temps.</p>
+            <h2 style="opacity: 0.2;" id="contact-title" class="formulaire__title">Contactez-moi</h2>
 
-            <form class="formulaire__form" action="#" method="post">
+            <form style="opacity: 0.2;" class="formulaire__form" action="#" method="post">
                 <div class="formulaire__grid">
                     <div class="formulaire__field">
                         <label class="formulaire__label" for="prenom">Votre prénom</label>
-                        <input class="formulaire__input" id="prenom" name="prenom" type="text" autocomplete="given-name">
+                        <input class="formulaire__input" id="prenom" name="prenom" type="text" autocomplete="given-name" readonly>
                     </div>
 
                     <div class="formulaire__field">
                         <label class="formulaire__label" for="nom">Votre nom</label>
-                        <input class="formulaire__input" id="nom" name="nom" type="text" autocomplete="family-name">
+                        <input class="formulaire__input" id="nom" name="nom" type="text" autocomplete="family-name" readonly>
                     </div>
 
                     <div class="formulaire__field formulaire__field--full">
                         <label class="formulaire__label" for="email">Votre adresse courriel</label>
-                        <input class="formulaire__input" id="email" name="email" type="email" autocomplete="email">
+                        <input class="formulaire__input" id="email" name="email" type="email" autocomplete="email" readonly>
                     </div>
 
                     <div class="formulaire__field formulaire__field--full">
                         <label class="formulaire__label" for="message">Votre message</label>
-                        <textarea class="formulaire__textarea" id="message" name="message" rows="8"></textarea>
+                        <textarea class="formulaire__textarea" id="message" name="message" rows="8" readonly></textarea>
                     </div>
                 </div>
 
