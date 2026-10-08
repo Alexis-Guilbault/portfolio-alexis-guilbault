@@ -47,13 +47,24 @@ J'ai utilisé l'IA deux fois : La première fois pour créer la composante de fo
 ### Bloc 3 - Final
 **Qu'est-ce que j'ai accompli depuis le dernier bloc?**
 
+Le contrôle de la qualité, l'animation au scroll et la fin de la programmation d'interactivité.
+
 **Quelle a été ma principale difficulté et comment je l'ai surmontée?**
+
+L'effet CRT. J'ai essayé d'utiliser VFXjs en utilisant un shader trouvé en ligne. Cependant, le shader réduisait trop la lisibilité et avait un résultat pas trop joli visuellement, malgré toutes les tentatives de configuration que j'ai effectué. Pour cette raison, j'ai décidé de le retirer finalement.
 
 **Qu'est-ce que j'ai appris que je ne savais pas avant?**
 
-**Quelle est ma prochaine étape concrète?**
+J'ai appris comment marche le processus de contrôle de qualité et comment faire des animations au scroll avec CSS.
+
+**Qu'aurais-je fait si j'avais 1 semaine de plus ?**
+
+Intégrer des images pour le processus de création et faire fonctionner le formulaire par courriel.
 
 **Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?**
+
+Oui, pour essayer d'optimiser le code. Cependant, ça n'a pas marché donc je l'ai retiré.
+
 ## Utilisation de l'IA
 ### Bloc 1 - Design
 **2 Septembre 2026**
@@ -147,3 +158,4 @@ Résultat : Composante du formulaire dans la page contact.
 Résultat : Vidéos en fond (pas encore de vidéos concrètement, ils devront être tournés prochainement.
 
 ### Bloc 3 - Final
+Aucun prompt d'IA n'a été gardé dans ce bloc.
