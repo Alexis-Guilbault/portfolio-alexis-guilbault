@@ -6,6 +6,7 @@ async function loadProjects() {
     const projects = await response.json();
     return projects;
 }
+/* Fait une requête d'avoir les projets dans data.json. Si ça ne marche pas, montre un message d'erreur. Sinon, transforme en js les données extraites et les retournent. */
 
 async function init() {
     const projects = await loadProjects();
@@ -13,6 +14,7 @@ async function init() {
         if (project_list) {project_list.innerHTML += createProjectCard(project);}
     });
 }
+/* Lance la fonction précédente, et applique la fonction createProjectCard à chaque projet de l'array. */
 
 function createProjectCard(project) {
     return `<a class="project-card" id="${project.id}" href="./projet.html?id=${project.id}">
@@ -37,8 +39,8 @@ function createProjectCard(project) {
                 </div>
             </a>`;
 }
+/* Retourne le HTML des cartes. Du CSS s'y trouve. filter: grayscale(1) = monochrome, sinon en couleur. Du text-shadow est ajouté au hover pour le contraste. */
 
 let project_list = document.querySelector("#projets");
-
 
 init();

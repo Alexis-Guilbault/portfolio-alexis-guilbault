@@ -16,7 +16,8 @@ async function showProject() {
     const projectId = params.get('id');
     projects = await loadProjects();
     projet = projects.find(project => project.id == projectId);
-    
+     /* Prend le ID du lien et trouve le projet correspondant. */
+
     /* Titre */
     if (!projet) {
         title.innerText = "Introuvable"
@@ -28,12 +29,15 @@ async function showProject() {
         document.title = `${projet.title} - Portfolio d'Alexis Guilbault`
         main.classList.remove("hidden");
     }
+    /* Retire le contenu de la page si un projet est correctement choisi. */
 
-    /* Vidéo */
+
+    /* Bouton voir la vidéo. */
     video_container.innerHTML += createVideo(projet);
     if (projet.link) {
         video_container.innerHTML += `<p class="bouton-nav"><a href="${projet.link}" target="_blank">Voir le projet</a></p>`
     }
+    /* Créé un lien vers un site externe si un lien est présent dans projet.link. */
 
     /* Description */
     description.innerText = projet.description
@@ -61,6 +65,7 @@ async function showProject() {
         const processus_creation = document.querySelector(".processus_creation");
         processus_creation.classList.add("hidden");
     }
+    /* Cache processus si l'œuvre actuel ne le contient pas. */
 }
 
 showProject();

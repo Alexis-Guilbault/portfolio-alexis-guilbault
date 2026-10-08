@@ -1,3 +1,4 @@
+/* Configuration des fontes */
 @font-face {
   .pixelify-sans-title {
     font-family: "Pixelify Sans", sans-serif;
@@ -29,7 +30,7 @@
 
 html {
   min-width: 323px;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Cache le scroll horizontal */
 }
 
 body {
@@ -53,6 +54,8 @@ main {
   align-items: center;
 }
 
+/* Le flexbox en colonnes est appliqué au body et au main */
+
 /* En-tête et titres de la page d'accueil */
 
 .mouse-ball {
@@ -63,6 +66,8 @@ main {
   border-radius: 100%;
   z-index: 3;
 }
+
+/* Le z-index est appliqué à la balle pour qu'elle soit entre les éléments du header (5) et le fond du header (0) */
 
 h1,
 h2 {
@@ -95,6 +100,8 @@ h3 {
   margin: 0;
 }
 
+/* Change la taille, la marge et les couleurs des titres */
+
 header {
   display: flex;
   flex-direction: column;
@@ -116,6 +123,8 @@ header {
     z-index: 5;
   }
 }
+
+/* Modifie le header, le petit texte de description à l'intérieur, et monte le z-index dans les éléments du header. */
 
 header > p {
   padding: 0;
@@ -155,6 +164,8 @@ nav > ul {
   }
 }
 
+/* Au hover ou au focus, les boutons affichent un box shadow et changent leur couleur de texte. Sur mobile, ils affichent en colonnes. */
+
 .bouton-nav {
   width: 60vw;
   height: 10vh;
@@ -176,6 +187,7 @@ nav > ul {
     }
   }
 }
+/* Semi-composante des boutons. Agit comme les li plus haut, mais pour la page projet. */
 
 a {
   text-decoration: none;
@@ -206,6 +218,7 @@ a {
     }
   }
 }
+/* Ajoute une transition du background-color qui dure 250 millisecondes. */
 
 /* Contenu de la carte */
 .project-card__content {
@@ -257,6 +270,7 @@ a {
     }
   }
 }
+/* Fait que les liens changent de couleur lors du hover dans le faux-terminal. */
 
 /* Section compétences */
 #competence-mobile {
@@ -347,7 +361,7 @@ footer > p > a {
   }
 
   .desktop {
-    display: none !important;
+    display: none !important; /* Important est utilisé pour s'assurer que le display:none soit pas overridden par un display:flex. */
   }
 
   /* En-tête et titres de la page d'accueil */
@@ -380,6 +394,7 @@ footer > p > a {
     margin: 0;
     font-size: 3.5vw;
   }
+  /* Adaptation des tailles de fontes */
 
   nav > ul {
     margin: 0;
@@ -724,6 +739,8 @@ footer > p > a {
   }
 }
 
+/* Vu leur forme similaire, applique les styles à la page contact et à la page projet. */
+
 .contact-page {
   display: flex;
   flex-direction: row;
@@ -978,12 +995,12 @@ div > h3 {
 
 /* Animation CSS */
 .loading_bar {
-  z-index: 5;
+  z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 0.3vh;
+  height: 0.5vh;
   background: #0f0;
   transform-origin: left;
   transform: scaleX(0);
@@ -997,3 +1014,5 @@ div > h3 {
   animation: grow linear;
   animation-timeline: scroll();
 }
+
+/* Animation pris des notes de cours. Créé une animation nommée grow qui s'anime au défilement.  */

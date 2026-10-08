@@ -20,6 +20,9 @@ boutons.forEach(bouton => {
         })
     })
 });
+/*
+Ajoute selected au bouton cliqué dans les onglets. Retire selected des autres onglets.
+*/
 
 /* pseudo-terminal */
 const bouton_x = document.querySelector("#x");
@@ -35,12 +38,16 @@ bouton_x.addEventListener("click", () => {
     }
 });
 
+/* Si le texte du bouton est x, cache le terminal, sinon l'affiche. */
+
 /* flash > */
 const trait = document.querySelector("#trait");
 
 var compteur = setInterval(() => {
     trait.style.opacity = trait.style.opacity * -1 + 1;
 }, 400);
+
+/* Fait flasher l'opacité du trait à chaque 400 ms */
 
 /* Boule */
 const boule = document.querySelector(".mouse-ball");
