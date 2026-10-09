@@ -961,8 +961,9 @@ div > h3 {
   }
 }
 
-/* PAGE PROJET - ÉCRAN LARGE */
+/* ÉCRAN LARGE */
 @media screen and (min-width: 1440px) {
+  /* Page projet */
   .header-project {
     height: 20%;
   }
@@ -990,6 +991,82 @@ div > h3 {
     font-size: 3vw;
     color: #fc0;
     font-family: 'Pixelify Sans';
+  }
+
+  /* Page d'acceuil */
+  /* Configuration body (desktop) */
+  html {
+    min-width: 1440px;
+  }
+  /* En-tête et titres de la page d'accueil */
+  h1 {
+    font-size: 8vw;
+    & > a > span {
+      font-size: 6vw;
+    }
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  header {
+    & small {
+      padding-left: 1vw;
+      font-size: 1vw;
+    }
+  }
+
+  header > p {
+    margin: 0;
+    font-size: 1.5vw;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  /* Section à propos */
+  #a-propos {
+    padding: 5vh 0;
+  }
+
+  .terminal-header {
+    width: 75vw;
+    height: 15vh;
+    justify-content: space-around;
+    & > p {
+      font-size: 6vw;
+      margin: 0;
+    }
+  }
+
+  .terminal-body {
+    width: 75vw;
+    padding: 1vh 3vw;
+    text-align: left;
+    font-size: 1vw;
+    border: 2vw solid #6f11b7;
+  }
+
+  /* Section compétences */
+  .tabs {
+    & li {
+      font-size: 1.5vw;
+    }
+  }
+
+  .contact-link {
+    font-size: 4vw;
+  }
+
+  footer > p > a {
+    font-size: 4vw;
+    margin: 0;
+  }
+
+  .footer-square {
+    height: 10vh;
   }
 }
 
