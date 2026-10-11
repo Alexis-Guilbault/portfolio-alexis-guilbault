@@ -958,14 +958,8 @@ div > h3 {
   }
 }
 
-<<<<<<< HEAD
 /* PAGE PROJET - ÉCRAN LARGE */
 @media screen and (min-width: 1280px) {
-=======
-/* ÉCRAN LARGE */
-@media screen and (min-width: 1440px) {
-  /* Page projet */
->>>>>>> d160eb1b6b3e64cce9f50debbf389cd6f3e1e5a0
   .header-project {
     height: 20%;
   }
