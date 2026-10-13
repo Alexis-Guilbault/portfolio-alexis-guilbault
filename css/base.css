@@ -52,6 +52,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5vh;
 }
 
 /* Le flexbox en colonnes est appliqué au body et au main */
@@ -774,17 +775,17 @@ footer > p > a {
 }
 
 .identifiants__text {
-  color: #ffcc00;
+  color: #fff;
   font-family: "roboto mono";
   font-size: 1.8vw;
   & > a {
-    color: #ffcc00;
+    color: #fff;
     font-family: "roboto mono";
     text-decoration: underline;
     transition-property: color;
     transition-duration: 300ms;
     &:hover {
-      color: #6f11b7;
+      color: #fc0;
     }
   }
 }
@@ -914,8 +915,25 @@ div > h3 {
   font-family: 'Pixelify Sans';
 }
 
+hr {
+  width: 100%;
+}
+
 .processus_creation {
   padding: 1.5vw;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  & > img {
+      display: block;
+      width: 100%;
+      padding-bottom: 2vh;
+  }
 }
 
 /* PAGE PROJET - MOBILE */
@@ -935,7 +953,7 @@ div > h3 {
   }
 
   .images {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
