@@ -26,10 +26,10 @@ function createProjectCard(project) {
                         filter: grayscale(1);
                         transition-property: filter;
                         transition-duration: 500ms;
+                        text-shadow: 0.25vw 0.25vh 0 #6f11b7;
                         &:hover {
                             filter: grayscale(0);
                             color: #fc0;
-                            text-shadow: 0.25vw 0.25vh 0 #6f11b7;
                         }
                     }
                 </style>

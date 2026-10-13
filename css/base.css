@@ -96,7 +96,7 @@ h2 {
 }
 
 h3 {
-  font-size: 10vw;
+  font-size: 12vw;
   margin: 0;
 }
 
@@ -215,6 +215,9 @@ a {
     transition-duration: 250ms;
     & > div > p {
       font-size: 6vw;
+    }
+    & > div > h3 {
+      font-size: 12vw;
     }
   }
 }
@@ -415,6 +418,9 @@ footer > p > a {
       & > div > p {
         font-size: 4vw;
       }
+      & > div > h3 {
+        font-size: 8vw;
+      }
     }
   }
 
@@ -598,6 +604,9 @@ footer > p > a {
         & > p {
           font-size: 1.2vw;
         }
+        & > h3 {
+          font-size: 4vw;
+        }
       }
     }
   }
@@ -729,6 +738,7 @@ footer > p > a {
   justify-content: space-between;
   font-size: 8vw;
   padding: 0;
+  padding-bottom: 1vh;
   background-color: #00000000;
   & > h1 {
     font-size: 8vw;
@@ -771,6 +781,11 @@ footer > p > a {
     color: #ffcc00;
     font-family: "roboto mono";
     text-decoration: underline;
+    transition-property: color;
+    transition-duration: 300ms;
+    &:hover {
+      color: #6f11b7;
+    }
   }
 }
 
@@ -785,7 +800,7 @@ footer > p > a {
       width: 70%;
     }
     & > a {
-      font-size: 10vw;
+      font-size: 5vw;
     }
   }
 
@@ -829,7 +844,7 @@ footer > p > a {
       width: 80%;
     }
     & > a {
-      font-size: 12vw;
+      font-size: 6vw;
     }
   }
 
@@ -1089,3 +1104,13 @@ div > h3 {
 }
 
 /* Animation pris des notes de cours. Créé une animation nommée grow qui s'anime au défilement.  */
+
+.back_arrow {
+  font-size: 4vw;
+  transition-property: all;
+  transition-duration: 300ms;
+  &:hover {
+    color: #6f11b7;
+    text-shadow: 0.25vw 0.25vw #ffcc00;
+  }
+}
