@@ -55,6 +55,10 @@ main {
   gap: 5vh;
 }
 
+section {
+  padding: 4vh 0;
+}
+
 /* Le flexbox en colonnes est appliqué au body et au main */
 
 /* En-tête et titres de la page d'accueil */
